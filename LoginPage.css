@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    background: #f5d9e5;
+    background-image: linear-gradient(#eeaeca, #94bbe9);
+}
+
+.login-box {
+    background: white;
+    padding: 30px 120px;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.logo {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-box button {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-box hr {
+    border: 0;
+    height: 1px;
+    background: gray;
+    font-size: 14px;
+    margin-top: -16px;
+}
+
+.login-box input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid gray;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+::placeholder {
+    font-weight: 500;
+    color: gray;
+}
+
+.login-box form button {
+    background: #9C254D;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.login-box p {
+    text-align: left;
+    font-size: 14px;
+    color: blue;
+    margin: 40px 0 50px;
+}
+
+.login-box p a {
+    text-decoration: none;
+    color: #eeaeca;
+}
+
+.input-field {
+    display: flex;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background: #9C254D;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group {
+    height: 280px;
+}
+
+.btn-field button.disable {
+    background: gray;
+    color: rgb(204, 204, 204);
+}
+
+.login-btn:hover {
+    border: 1px solid #9C254D;
+    color: #9C254D;
+}
+
+.fill-box:hover {
+    border: 1px solid #9C254D;
+    color: #9C254D;
+}
+
+.button-line {
+    display: flex;
+}
+
+.backhome-btn {
+    text-decoration: none;
+    color: black;
+}
+
+.backhome-btn:hover {
+    border: 1px solid #9C254D;
+    color: white;
+    background-color: #9C254D;
+}
+
+.register-btn {
+    color: #9C254D;
+}
+
+.register-btn:hover {
+    background-color: #9C254D;
+    color: white;
+}
